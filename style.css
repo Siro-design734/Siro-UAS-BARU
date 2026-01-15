@@ -1,0 +1,92 @@
+/* ukuran halaman */
+* {
+  box-sizing: border-box;
+}
+
+/* dasar halaman */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #eef1f5; /* background abu-abu soft */
+  margin: 0;
+  padding: 30px;
+}
+
+/* card kuis */
+.card {
+  background: #ffffff;
+  max-width: 650px;
+  margin: auto; /* biar ke tengah */
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* bayangan tipis */
+}
+
+/* judul utama */
+h1 {
+  margin: 0;
+  color: #1f2937;
+}
+
+/* teks kecil di bawah judul */
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+/* satu blok soal */
+.question {
+  margin-bottom: 22px;
+}
+
+/* teks pertanyaan */
+.question p {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* opsi jawaban */
+label {
+  display: block;
+  padding: 8px 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  cursor: pointer; /* biar keliatan bisa diklik */
+}
+
+/* hover */
+label:hover {
+  background-color: #f3f4f6;
+}
+
+/* jarak radio sama teks */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* tombol submit & ulang */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* efek hover tombol */
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* area hasil kuis */
+#result {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* buat nyembunyiin elemen */
+.hidden {
+  display: none;
+}
